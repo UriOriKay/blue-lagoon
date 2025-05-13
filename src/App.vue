@@ -8,11 +8,12 @@ import { RouterLink, RouterView } from 'vue-router';
 </script>
 
 <template>
-  <Header>
-    <h1 class="bg-red-500 text-white p-4">Der Header</h1>  
-  </Header>
-  <RouterView />
-  <footer>besser als vorher</footer>
+  <div class="p-10">
+    <h2 data-aos="fade-up" class="text-3xl font-bold">Willkommen im Hotel!</h2>
+    <p data-aos="fade-right" class="mt-4 text-gray-600">
+      Entspannen Sie sich und genießen Sie Ihren Aufenthalt 🌴
+    </p>
+  </div>
 </template>
 
 <style>
